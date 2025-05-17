@@ -2,7 +2,7 @@
 Cowrywise Data Analytics SQL Assessment
 
 ## Pre-Question Explanations:
-Question 1: High-Value Customers with Multiple Products
+### Question 1: High-Value Customers with Multiple Products
 
 Objective: Identify customers who have at least one funded savings plan and at least one funded investment plan, then rank them by total deposits.
 
@@ -20,8 +20,7 @@ Approach:
 
 Outcome: Efficient segmentation of customers for cross-sell opportunities.
 
-
-Question 2: Transaction Frequency Analysis
+### Question 2: Transaction Frequency Analysis
 
 Objective: Categorize customers into:
 High Frequency (≥10 transactions/month)
@@ -42,8 +41,7 @@ Approach:
 
 Outcome: Segmentation ready for marketing engagement based on customer activity level.
 
-
-Question 3: Account Inactivity Alert
+### Question 3: Account Inactivity Alert
 
 Objective: Identify active savings or investment accounts with no inflow transactions for over 1 year (365 days).
 
@@ -61,8 +59,7 @@ Approach:
 
 Outcome: A clean list of inactive but active (not deleted) plans to flag for ops review.
 
-
-Question 4:Customer Lifetime Value (CLV) Estimation
+### Question 4:Customer Lifetime Value (CLV) Estimation
 
 Objective: Calculate estimated CLV using: CLV = (total_transactions / tenure_months) * 12 * avg_profit_per_transaction
 
@@ -83,7 +80,6 @@ Final Fix:
 4. Computed CLV in outer query using correct formula.
 
 Outcome: Accurate customer-level CLV metric, useful for prioritizing customer value.
-
 
 ## Challenges & Resolutions
 1. Confusion Between COUNT() vs SUM() for Total Transactions
